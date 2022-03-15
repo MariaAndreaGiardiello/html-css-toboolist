@@ -20,3 +20,44 @@ h1{
     font-family: 'Fredoka', sans-serif;
 }
 /*Fine Intestazione*/
+
+/*Contenitore*/
+.task_container{ 
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 50px;
+}
+/*Fine Contenitore*/
+
+/*Bottoni + linea*/
+.blue_button{ 
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+    background-color: rgb(54, 133, 250);
+    border: none;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.white_button{ 
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Fredoka', sans-serif;
+    color: grey;
+    background-color: white;
+    border-color: lightgrey;
+    font-size: 16px;
+}
+
+.linea{ 
+    color: grey;
+    margin-top: 20px;
+}
+/*Fine bottoni + linea*/
