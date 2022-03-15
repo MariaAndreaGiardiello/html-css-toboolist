@@ -24,7 +24,7 @@ h1{
 /*Contenitore*/
 .task_container{ 
     width: 800px;
-    height: 800px;
+    height: 600px;
     margin: 0 auto;
     background-color: white;
     margin-top: 50px;
@@ -61,3 +61,71 @@ h1{
     margin-top: 20px;
 }
 /*Fine bottoni + linea*/
+
+/*Lista puntata*/
+.task_list{ 
+    margin-left: 50px;
+    font-family: 'Fredoka', sans-serif;
+    line-height: 15px;
+}
+
+h3{ 
+    font-family: 'Fredoka', sans-serif;
+    font-size: 25px
+}
+    /*Check & Cross*/
+    .check{ 
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        border-radius: 100%;
+        border: 1px solid green;
+        color: green;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .cross{ 
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        border-radius: 100%;
+        border: 1px solid red;
+        color: red;
+        text-align: center;
+        line-height: 25px;
+    }
+    /*Fine Check & Cross*/
+
+    /*Bottoni colorati*/
+    .tag{ 
+        display: inline-block;
+        color: white;
+        border-radius: 10px;
+        padding: 5px;
+        height: 10px;
+        }
+
+    .editorial_mark{ 
+    background-color: rgb(0, 174, 255);
+    }
+
+    .goals_mark{ 
+    background-color: blueviolet;
+    }
+
+    .recruiting_mark{ 
+    background-color: rgb(28, 160, 83);
+    }
+
+    .mobile_mark{ 
+        background-color: orange;
+        }
+
+    .website_mark{ 
+        background-color: violet;
+        }
+    
+    .sales_mark{ 
+        background-color: rgb(112, 192, 37);
+        }
